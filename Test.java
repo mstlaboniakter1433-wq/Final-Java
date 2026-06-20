@@ -2,7 +2,7 @@ class Test{
     int x = 10;
     {
         System.out.println("IIB: x = " + x);
-        x = 20;
+        x = 25;
     }
     Test(){
         System.out.println("Constructor: x = " + x);
